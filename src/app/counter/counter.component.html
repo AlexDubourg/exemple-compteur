@@ -1,3 +1,20 @@
+<div class="alert alert-primary" role="alert">
+  A simple primary alert—check it out!
+</div>
+
+<button type="button" class="btn btn-primary">
+  Notifications <span class="badge badge-light">4</span>
+</button>
+
+<a 
+  href="#" 
+  class="badge"
+  [class.badge-primary]="counter < 5"
+  [class.badge-danger]="counter >= 5"
+>
+  Primary
+</a>
+
 <span>{{counter}}</span>
 <br/>
 <button (click)="increment()">+</button>
